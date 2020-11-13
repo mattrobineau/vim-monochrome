@@ -12,14 +12,16 @@ if exists('syntax_on')
 endif
 
 let g:colors_name = 'monochrome'
-
-let s:white  = ['White', 15]
+"let s:white  = ['White', 15]
+let s:white = ['#d0d0d0', 252]
 let s:black  = ['#0e1111', 16]
 let s:bgray  = ['#181818', 233]
-let s:lgray  = ['LightGray', 255]
+"let s:lgray  = ['LightGray', 255]
+let s:lgray = ['#d0d0d0', 252]
 let s:cgray  = ['#737373', 243]
 let s:dgray  = ['DarkGray', 248]
-let s:sblue  = ['#778899', 67]
+"let s:sblue  = ['#778899', 67]
+let s:sblue = ['#87afd7', 110]
 let s:yellow = ['Yellow', 226]
 let s:red    = ['#b6403a', 160]
 let s:green  = ['#478226', 28]
