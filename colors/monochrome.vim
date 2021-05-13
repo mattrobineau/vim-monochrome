@@ -4,6 +4,10 @@
 " Maintainer: Xavier Noria <fxn@hashref.com>
 " License:    MIT
 
+" Debug with:
+" 1. runtime syntax/colortest.vim
+" 2. highlight
+
 set background=dark
 
 hi clear
