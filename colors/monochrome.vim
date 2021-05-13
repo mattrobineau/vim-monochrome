@@ -78,8 +78,8 @@ call s:hi('Cursor', s:black, s:lgray)
 call s:hi('CursorLine', s:default_lst, s:bgray, s:none)
 call s:hi('CursorLineNr', s:white, s:default_bg, s:bold)
 call s:hi('ColorColumn', s:default_fg, s:bgray)
-call s:hi('Search', s:white, s:sblue)
-call s:hi('Visual', s:white, s:sblue)
+call s:hi('Search', s:black, s:sblue)
+call s:hi('Visual', s:black, s:sblue)
 call s:hi('ErrorMsg', s:white, s:red)
 
 " Tildes at the bottom of a buffer, etc.
@@ -104,8 +104,8 @@ call s:hi('helpHyperTextJump', s:sblue, s:default_bg, s:underline)
 call s:hi('helpNote')
 
 " Popup menu.
-call s:hi('Pmenu', s:white, s:sblue)
-call s:hi('PmenuSel', s:sblue, s:white)
+call s:hi('Pmenu', s:black, s:sblue)
+call s:hi('PmenuSel', s:black, s:white)
 
 " Notes.
 call s:hi('Todo', s:black, s:yellow, s:bold)
@@ -126,7 +126,7 @@ call s:hi('Type', s:white, s:default_bg, s:bold)
 call s:hi('Function', s:white)
 call s:hi('Identifier')
 call s:hi('Special')
-call s:hi('MatchParen', s:white, s:sblue)
+call s:hi('MatchParen', s:black, s:sblue)
 
 
 "
